@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.vibellioneventsinc.ca
+
+# Sitemaps
+Sitemap: https://www.vibellioneventsinc.ca/sitemap.xml
