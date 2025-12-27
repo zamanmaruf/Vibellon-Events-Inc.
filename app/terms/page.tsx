@@ -167,7 +167,11 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
               <li>Refund eligibility depends on the timing of cancellation relative to the event date</li>
-              <li>All refund requests must be submitted in writing to vibellioneventsinc@gmail.com</li>
+              <li>All refund requests must be submitted in writing through our{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact page
+                </Link>
+              </li>
               <li>Processing times may vary by payment method</li>
               <li>We reserve the right to refuse refunds in cases of Code of Conduct violations</li>
             </ul>
