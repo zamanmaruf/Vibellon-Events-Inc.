@@ -104,14 +104,6 @@ export function Footer() {
           </p>
           <div className="flex gap-4">
             <a
-              href="https://twitter.com/vibellion"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Twitter
-            </a>
-            <a
               href="https://www.linkedin.com/company/vibellion-events-inc/"
               target="_blank"
               rel="noopener noreferrer"
