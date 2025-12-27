@@ -156,6 +156,7 @@ Testimonials are stored in `/content/testimonials.json`.
    - `DATABASE_URL` (PostgreSQL connection string)
    - `PLAUSIBLE_DOMAIN` (optional)
    - `NEXT_PUBLIC_SITE_URL` (your production URL)
+   - `RESEND_API_KEY` (optional, for contact form emails - get free API key at https://resend.com)
 4. Deploy
 
 Vercel will automatically:
@@ -223,6 +224,18 @@ Vercel will automatically:
 - `DATABASE_URL`: Database connection string
 - `PLAUSIBLE_DOMAIN`: Plausible analytics domain (optional)
 - `NEXT_PUBLIC_SITE_URL`: Your site URL for metadata and sitemaps
+- `RESEND_API_KEY`: Resend API key for sending contact form emails (optional - form will log to console in dev if not set)
+
+### Email Setup (Contact Form)
+
+The contact form sends emails to `vibellioneventsinc@gmail.com` using Resend. To enable email sending:
+
+1. Sign up for a free account at [Resend](https://resend.com)
+2. Get your API key from the dashboard
+3. Add it to your `.env` file: `RESEND_API_KEY="re_xxxxx"`
+4. Deploy to Vercel and add the environment variable there
+
+**Note:** If `RESEND_API_KEY` is not set, the form will still work (saving to database) but will log emails to the console instead of sending them. This is useful for development.
 
 ## License
 

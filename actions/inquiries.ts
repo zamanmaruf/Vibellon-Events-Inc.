@@ -7,6 +7,7 @@ import {
 } from "@/lib/validations/schemas"
 import { prisma } from "@/lib/db/prisma"
 import { rateLimit } from "@/lib/utils/rate-limit"
+import { sendContactEmail } from "@/lib/email/send-email"
 
 export async function submitInquiry(
   type: "corporate" | "partner" | "contact",
@@ -108,6 +109,7 @@ export async function submitInquiry(
     validation = contactSchema.safeParse(rawData)
     if (validation.success) {
       try {
+        // Save to database
         await prisma.inquiry.create({
           data: {
             type: "contact",
@@ -116,6 +118,22 @@ export async function submitInquiry(
             message: validation.data.message,
           },
         })
+
+        // Send email
+        const emailResult = await sendContactEmail({
+          from: `"${validation.data.name}" <${validation.data.email}>`,
+          name: validation.data.name,
+          email: validation.data.email,
+          message: validation.data.message,
+          subject: "New Contact Form Submission",
+        })
+
+        // If email fails, log but don't fail the form submission
+        if (!emailResult.success) {
+          console.error("Failed to send contact email:", emailResult.error)
+          // Still return success since the inquiry was saved to the database
+        }
+
         return { success: true }
       } catch (error) {
         console.error("Contact inquiry error:", error)
