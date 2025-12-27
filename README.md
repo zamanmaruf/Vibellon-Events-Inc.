@@ -160,9 +160,11 @@ Testimonials are stored in `/content/testimonials.json`.
 
 Vercel will automatically:
 - Install dependencies
-- Run `prisma generate`
+- Run `postinstall` script (which runs `prisma generate`)
 - Build the application
 - Run database migrations (if configured)
+
+**Note:** The `postinstall` script in `package.json` ensures Prisma Client is generated during deployment.
 
 ### Database Setup on Vercel
 
