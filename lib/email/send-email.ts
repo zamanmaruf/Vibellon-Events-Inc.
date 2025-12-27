@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 const RECIPIENT_EMAIL = "vibellioneventsinc@gmail.com"
 
 interface SendEmailParams {
-  from: string
+  from?: string
   name: string
   email: string
   message: string
@@ -31,8 +31,12 @@ export async function sendContactEmail({
   }
 
   try {
+    // Use Resend's default domain if no custom from address is configured
+    // Users should set RESEND_FROM_EMAIL env var with a verified domain
+    const fromEmail = process.env.RESEND_FROM_EMAIL || from || "onboarding@resend.dev"
+    
     const { data, error } = await resend.emails.send({
-      from: from || "Vibellion Events <contact@vibellionevents.com>",
+      from: fromEmail,
       to: RECIPIENT_EMAIL,
       replyTo: email,
       subject: `${subject} from ${name}`,

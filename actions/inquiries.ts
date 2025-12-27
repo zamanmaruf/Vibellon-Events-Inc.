@@ -121,7 +121,6 @@ export async function submitInquiry(
 
         // Send email
         const emailResult = await sendContactEmail({
-          from: `"${validation.data.name}" <${validation.data.email}>`,
           name: validation.data.name,
           email: validation.data.email,
           message: validation.data.message,
