@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Vibellion Events Inc. | Canada's Most Trusted Business-Event Engine",
+    default: "Vibellion Events Inc. | Outcome-Driven Business Events",
     template: "%s | Vibellion Events Inc.",
   },
   description: "Outcome-driven business sprints and curated rooms. Leave with it done.",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "en_CA",
     url: "/",
     siteName: "Vibellion Events Inc.",
-    title: "Vibellion Events Inc. | Canada's Most Trusted Business-Event Engine",
+    title: "Vibellion Events Inc. | Outcome-Driven Business Events",
     description: "Outcome-driven business sprints and curated rooms. Leave with it done.",
     images: [
       {

@@ -15,7 +15,7 @@ export function Footer() {
               className="h-[136px] w-auto"
             />
             <p className="text-sm text-muted-foreground">
-              Canada's most trusted business-event engine. Outcome-driven, curated rooms, operator-led.
+              Outcome-driven business events for serious operators. Curated rooms, operator-led, execution-focused.
             </p>
           </div>
 

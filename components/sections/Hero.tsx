@@ -12,7 +12,7 @@ export function Hero() {
       />
       <div className="relative container mx-auto max-w-3xl text-center space-y-8 z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-          Canada's Most Trusted Business-Event Engine
+          Outcome-Driven Business Events for Serious Operators
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground">
           Outcome-driven business sprints and curated rooms. Operator-led. Leave with it done.

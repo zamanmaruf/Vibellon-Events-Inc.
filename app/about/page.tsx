@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata = {
   title: "About",
-  description: "Learn about Vibellion Events Inc. - Canada's most trusted business-event engine. Mission, principles, and operating model.",
+  description: "Learn about Vibellion Events Inc. - Outcome-driven business events for serious operators. Mission, principles, and operating model.",
 }
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="space-y-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold">About Vibellion</h1>
           <p className="text-xl text-muted-foreground">
-            Canada's most trusted business-event engine
+            Outcome-driven business events for serious operators
           </p>
         </div>
 

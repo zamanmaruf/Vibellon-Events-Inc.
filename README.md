@@ -1,6 +1,6 @@
 # Vibellion Events Inc. Website
 
-Production-ready website for Vibellion Events Inc. - Canada's most trusted business-event engine.
+Production-ready website for Vibellion Events Inc. - Outcome-driven business events for serious operators.
 
 ## Tech Stack
 
