@@ -17,10 +17,6 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               Canada's most trusted business-event engine. Outcome-driven, curated rooms, operator-led.
             </p>
-            <p className="text-sm text-muted-foreground">
-              1800 Argyle Street<br />
-              Halifax, Nova Scotia, Canada
-            </p>
           </div>
 
           <div className="space-y-4">
