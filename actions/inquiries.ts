@@ -46,6 +46,7 @@ export async function submitInquiry(
     validation = corporateInquirySchema.safeParse(rawData)
     if (validation.success) {
       try {
+        // Save to database
         await prisma.inquiry.create({
           data: {
             type: "corporate",
@@ -60,6 +61,27 @@ export async function submitInquiry(
             }),
           },
         })
+
+        // Send email with all corporate inquiry details
+        const emailResult = await sendContactEmail({
+          name: validation.data.name,
+          email: validation.data.email,
+          company: validation.data.company,
+          message: validation.data.objective,
+          subject: "New Corporate Workshop Inquiry",
+          additionalFields: {
+            Role: validation.data.role,
+            "Team Size": validation.data.teamSize,
+            Timeline: validation.data.timeline,
+          },
+        })
+
+        // If email fails, log but don't fail the form submission
+        if (!emailResult.success) {
+          console.error("Failed to send corporate inquiry email:", emailResult.error)
+          // Still return success since the inquiry was saved to the database
+        }
+
         return { success: true }
       } catch (error) {
         console.error("Corporate inquiry error:", error)
@@ -79,6 +101,7 @@ export async function submitInquiry(
     validation = partnerInquirySchema.safeParse(rawData)
     if (validation.success) {
       try {
+        // Save to database
         await prisma.inquiry.create({
           data: {
             type: "partner",
@@ -91,6 +114,25 @@ export async function submitInquiry(
             }),
           },
         })
+
+        // Send email with all partner inquiry details
+        const emailResult = await sendContactEmail({
+          name: validation.data.name,
+          email: validation.data.email,
+          company: validation.data.company || undefined,
+          message: validation.data.message,
+          subject: "New Partnership Inquiry",
+          additionalFields: {
+            "Partnership Type": validation.data.partnershipType,
+          },
+        })
+
+        // If email fails, log but don't fail the form submission
+        if (!emailResult.success) {
+          console.error("Failed to send partner inquiry email:", emailResult.error)
+          // Still return success since the inquiry was saved to the database
+        }
+
         return { success: true }
       } catch (error) {
         console.error("Partner inquiry error:", error)

@@ -10,6 +10,8 @@ interface SendEmailParams {
   email: string
   message: string
   subject?: string
+  company?: string
+  additionalFields?: Record<string, string>
 }
 
 export async function sendContactEmail({
@@ -18,6 +20,8 @@ export async function sendContactEmail({
   email,
   message,
   subject = "New Contact Form Submission",
+  company,
+  additionalFields,
 }: SendEmailParams) {
   // If RESEND_API_KEY is not set, log the email (useful for development)
   if (!process.env.RESEND_API_KEY) {
@@ -41,18 +45,24 @@ export async function sendContactEmail({
       replyTo: email,
       subject: `${subject} from ${name}`,
       html: `
-        <h2>New Contact Form Submission</h2>
+        <h2>${subject}</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
+        ${company ? `<p><strong>Company:</strong> ${company}</p>` : ""}
+        ${additionalFields ? Object.entries(additionalFields).map(([key, value]) => 
+          `<p><strong>${key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1').trim()}:</strong> ${value}</p>`
+        ).join('') : ""}
         <p><strong>Message:</strong></p>
         <p>${message.replace(/\n/g, "<br>")}</p>
       `,
       text: `
-New Contact Form Submission
+${subject}
 
 Name: ${name}
 Email: ${email}
-
+${company ? `Company: ${company}\n` : ""}${additionalFields ? Object.entries(additionalFields).map(([key, value]) => 
+  `${key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1').trim()}: ${value}`
+).join('\n') + '\n' : ""}
 Message:
 ${message}
       `,
