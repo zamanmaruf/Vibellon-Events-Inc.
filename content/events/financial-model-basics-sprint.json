@@ -1,0 +1,88 @@
+{
+  "slug": "financial-model-basics-sprint",
+  "title": "Financial Model Basics Sprint",
+  "subtitle": "Build your first financial model without finance expertise",
+  "type": "sprint",
+  "format": "online",
+  "startDateISO": "2024-05-06T09:00:00-03:00",
+  "endDateISO": "2024-05-06T16:00:00-03:00",
+  "timezone": "America/Halifax",
+  "price": {
+    "currency": "CAD",
+    "standard": 249,
+    "pro": 449,
+    "vip": 699
+  },
+  "outcome": "A working financial model with P&L, cash flow, and key assumptions documented",
+  "deliverables": [
+    "Financial model template (Excel/Google Sheets)",
+    "P&L statement",
+    "Cash flow projection",
+    "Key assumptions document",
+    "Break-even analysis",
+    "Scenario planning framework"
+  ],
+  "agenda": [
+    {
+      "time": "09:00 - 09:30",
+      "title": "Introduction to Financial Models",
+      "details": "Why you need one, what it includes, and how to use it"
+    },
+    {
+      "time": "09:30 - 11:00",
+      "title": "Revenue Model & Assumptions",
+      "details": "Build your revenue model with realistic assumptions"
+    },
+    {
+      "time": "11:00 - 11:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "11:15 - 12:30",
+      "title": "Cost Structure & Expenses",
+      "details": "Map your fixed and variable costs"
+    },
+    {
+      "time": "12:30 - 13:30",
+      "title": "Lunch Break",
+      "details": ""
+    },
+    {
+      "time": "13:30 - 15:00",
+      "title": "P&L & Cash Flow",
+      "details": "Build profit & loss and cash flow statements"
+    },
+    {
+      "time": "15:00 - 15:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "15:15 - 16:00",
+      "title": "Key Metrics & Scenarios",
+      "details": "Identify KPIs and build scenario models"
+    },
+    {
+      "time": "16:00 - 16:30",
+      "title": "Review & Next Steps",
+      "details": "Validate your model and set up regular review cadence"
+    }
+  ],
+  "whoItsFor": [
+    "Non-financial founders who need to build a financial model",
+    "Startups preparing for fundraising",
+    "Founders who need to make data-driven decisions"
+  ],
+  "whoItsNotFor": [
+    "Teams with existing professional financial models",
+    "CFOs or finance professionals"
+  ],
+  "facilitator": {
+    "name": "Jessica Kim",
+    "title": "CPA, Former Startup CFO"
+  },
+  "registerUrl": "https://eventbrite.com/vibellion-financial-model-sprint",
+  "tags": ["finance", "financial-model", "accounting", "planning"]
+}
+

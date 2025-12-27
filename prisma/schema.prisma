@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Subscriber {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  source    String?  // newsletter, membership, etc.
+  role      String?
+  city      String?
+  createdAt DateTime @default(now())
+
+  @@index([email])
+  @@index([createdAt])
+}
+
+model Inquiry {
+  id        Int      @id @default(autoincrement())
+  type      String   // corporate, partner, contact
+  name      String
+  email     String
+  company   String?
+  message   String
+  meta      String?  // JSON string for additional fields
+  createdAt DateTime @default(now())
+
+  @@index([type])
+  @@index([createdAt])
+}
+

@@ -1,0 +1,88 @@
+{
+  "slug": "zero-to-first-10-customers-sprint",
+  "title": "Zero to First 10 Customers Sprint",
+  "subtitle": "Get your first paying customers using systematic, repeatable methods",
+  "type": "sprint",
+  "format": "online",
+  "startDateISO": "2024-05-13T09:00:00-03:00",
+  "endDateISO": "2024-05-13T17:00:00-03:00",
+  "timezone": "America/Halifax",
+  "price": {
+    "currency": "CAD",
+    "standard": 299,
+    "pro": 499,
+    "vip": 799
+  },
+  "outcome": "A clear plan to acquire your first 10 paying customers with specific tactics, timelines, and accountability",
+  "deliverables": [
+    "Customer acquisition playbook",
+    "Outreach templates and scripts",
+    "Pricing and packaging strategy",
+    "30-day action plan",
+    "Accountability tracking system",
+    "Direct introductions to potential early customers (VIP)"
+  ],
+  "agenda": [
+    {
+      "time": "09:00 - 09:30",
+      "title": "Opening & Customer Discovery Framework",
+      "details": "The Vibellion first-customer methodology"
+    },
+    {
+      "time": "09:30 - 11:00",
+      "title": "Define Your First Customer",
+      "details": "Identify who will buy first and why"
+    },
+    {
+      "time": "11:00 - 11:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "11:15 - 12:30",
+      "title": "Pricing & Packaging",
+      "details": "Set pricing that converts early adopters"
+    },
+    {
+      "time": "12:30 - 13:30",
+      "title": "Lunch Break",
+      "details": ""
+    },
+    {
+      "time": "13:30 - 15:00",
+      "title": "Outreach Strategy & Tactics",
+      "details": "Build your systematic outreach process"
+    },
+    {
+      "time": "15:00 - 15:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "15:15 - 16:30",
+      "title": "Sales Process & Conversion",
+      "details": "Design your sales process from first contact to close"
+    },
+    {
+      "time": "16:30 - 17:00",
+      "title": "30-Day Plan & Accountability",
+      "details": "Create your execution roadmap with milestones"
+    }
+  ],
+  "whoItsFor": [
+    "Pre-revenue startups with a product ready to sell",
+    "Founders who need systematic customer acquisition",
+    "Solo founders building their first customer base"
+  ],
+  "whoItsNotFor": [
+    "Startups with more than 10 paying customers",
+    "Teams without a sellable product"
+  ],
+  "facilitator": {
+    "name": "David Park",
+    "title": "Serial founder, acquired first 1000 customers for 3 startups"
+  },
+  "registerUrl": "https://eventbrite.com/vibellion-first-10-customers-sprint",
+  "tags": ["sales", "customers", "early-stage", "acquisition"]
+}
+

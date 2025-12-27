@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "Rachel Martinez",
+    "role": "Founder & CEO",
+    "company": "TechFlow Solutions",
+    "content": "The Bank & Investor-Ready Business Plan Sprint gave me exactly what I needed to secure our seed round. The structured approach and operator-led facilitation made all the difference. I left with a complete plan, not just notes.",
+    "event": "Bank & Investor-Ready Business Plan Sprint"
+  },
+  {
+    "id": "2",
+    "name": "James Chen",
+    "role": "Co-founder",
+    "company": "GreenScale",
+    "content": "Vibellion's curated room approach means you're not wasting time with people who aren't serious. Every person in that sprint was there to execute. The facilitator pushed us to actually finish deliverables, not just talk about them.",
+    "event": "GTM Sprint"
+  },
+  {
+    "id": "3",
+    "name": "Priya Patel",
+    "role": "Solo Founder",
+    "company": "DataBridge",
+    "content": "As a non-technical founder, I was intimidated by financial models. The Financial Model Basics Sprint made it accessible and actionable. I built my first model that day and used it to raise funding three months later.",
+    "event": "Financial Model Basics Sprint"
+  },
+  {
+    "id": "4",
+    "name": "Michael Thompson",
+    "role": "Founder",
+    "company": "CloudSync",
+    "content": "The Zero to First 10 Customers Sprint changed everything. The systematic approach they taught us helped me land 8 paying customers in the first month. No fluff, just execution.",
+    "event": "Zero to First 10 Customers Sprint"
+  },
+  {
+    "id": "5",
+    "name": "Sophie Laurent",
+    "role": "CEO",
+    "company": "InnovaHealth",
+    "content": "What sets Vibellion apart is the outcome-driven focus. You don't leave with inspiration—you leave with actual deliverables. Our pitch deck from the sprint helped us close our Series A.",
+    "event": "Pitch Deck Sprint"
+  },
+  {
+    "id": "6",
+    "name": "Ahmed Hassan",
+    "role": "Co-founder",
+    "company": "LocalLink",
+    "content": "The curated networking events are unlike anything else. Quality over quantity. I've made three meaningful partnerships from a single event. This is how networking should be done.",
+    "event": "Curated Founder Networking Night"
+  }
+]
+

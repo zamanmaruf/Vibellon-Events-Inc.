@@ -1,0 +1,107 @@
+{
+  "slug": "bank-investor-ready-sprint",
+  "title": "Bank & Investor-Ready Business Plan Sprint",
+  "subtitle": "From idea to funding-grade business plan in one intensive day",
+  "type": "sprint",
+  "format": "online",
+  "startDateISO": "2024-04-15T09:00:00-03:00",
+  "endDateISO": "2024-04-15T17:00:00-03:00",
+  "timezone": "America/Halifax",
+  "price": {
+    "currency": "CAD",
+    "standard": 299,
+    "pro": 499,
+    "vip": 799
+  },
+  "outcome": "A funding-grade business plan with financial projections, market analysis, and investor-ready pitch materials",
+  "deliverables": [
+    "Complete business plan template (filled)",
+    "Executive summary ready for investors",
+    "Financial model with 3-year projections",
+    "Market analysis and competitive positioning",
+    "Investor pitch deck outline",
+    "Follow-up review session booking"
+  ],
+  "agenda": [
+    {
+      "time": "09:00 - 09:30",
+      "title": "Welcome & Framework",
+      "details": "Introduction to the Vibellion execution framework"
+    },
+    {
+      "time": "09:30 - 11:00",
+      "title": "Market Analysis & Positioning",
+      "details": "Define your market, competitors, and unique value proposition"
+    },
+    {
+      "time": "11:00 - 11:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "11:15 - 12:30",
+      "title": "Business Model & Revenue Streams",
+      "details": "Map your business model and revenue projections"
+    },
+    {
+      "time": "12:30 - 13:30",
+      "title": "Lunch Break",
+      "details": ""
+    },
+    {
+      "time": "13:30 - 15:00",
+      "title": "Financial Model Deep Dive",
+      "details": "Build 3-year financial projections with assumptions"
+    },
+    {
+      "time": "15:00 - 15:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "15:15 - 16:30",
+      "title": "Executive Summary & Pitch Outline",
+      "details": "Craft investor-ready executive summary and pitch deck structure"
+    },
+    {
+      "time": "16:30 - 17:00",
+      "title": "Wrap-up & Next Steps",
+      "details": "Review deliverables, set follow-up actions, book review sessions"
+    }
+  ],
+  "whoItsFor": [
+    "Entrepreneurs preparing for seed or Series A funding",
+    "Founders validating their business model",
+    "Startups needing bank financing",
+    "Teams seeking strategic clarity on their business"
+  ],
+  "whoItsNotFor": [
+    "Ideas still in concept stage without customer validation",
+    "Established businesses with existing funding-grade documentation"
+  ],
+  "facilitator": {
+    "name": "Sarah Chen",
+    "title": "Former VC Associate, 50+ business plans reviewed"
+  },
+  "registerUrl": "https://eventbrite.com/vibellion-bank-sprint",
+  "faq": [
+    {
+      "question": "What if I need more time after the sprint?",
+      "answer": "All Pro and VIP ticket holders receive a 30-minute follow-up review session within 2 weeks. You can also book additional coaching sessions separately."
+    },
+    {
+      "question": "Do I need to prepare anything beforehand?",
+      "answer": "Yes, we'll send you a preparation checklist 1 week before the event. You'll need basic financial data, market research notes, and a clear sense of your business model."
+    },
+    {
+      "question": "What's the difference between Standard, Pro, and VIP?",
+      "answer": "Standard includes the sprint and all templates. Pro adds a 1-on-1 follow-up session and priority support. VIP includes everything in Pro plus 2 additional coaching sessions and direct facilitator access."
+    },
+    {
+      "question": "What is your refund policy?",
+      "answer": "Full refunds available up to 7 days before the event. 50% refund for cancellations 3-7 days before. No refunds within 3 days of the event."
+    }
+  ],
+  "tags": ["funding", "business-plan", "investors", "finance"]
+}
+

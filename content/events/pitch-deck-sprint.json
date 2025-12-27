@@ -1,0 +1,88 @@
+{
+  "slug": "pitch-deck-sprint",
+  "title": "Pitch Deck Sprint",
+  "subtitle": "Craft a compelling investor pitch deck in one focused session",
+  "type": "sprint",
+  "format": "online",
+  "startDateISO": "2024-04-22T09:00:00-03:00",
+  "endDateISO": "2024-04-22T16:00:00-03:00",
+  "timezone": "America/Halifax",
+  "price": {
+    "currency": "CAD",
+    "standard": 249,
+    "pro": 449,
+    "vip": 699
+  },
+  "outcome": "A complete, investor-ready pitch deck with clear narrative, visuals, and data",
+  "deliverables": [
+    "12-slide pitch deck template (completed)",
+    "Investor presentation script",
+    "One-pager summary",
+    "Pitch practice recording",
+    "Feedback from facilitator and peers",
+    "Revision checklist"
+  ],
+  "agenda": [
+    {
+      "time": "09:00 - 09:30",
+      "title": "Opening & Framework",
+      "details": "What investors actually want to see"
+    },
+    {
+      "time": "09:30 - 11:00",
+      "title": "Problem & Solution",
+      "details": "Define the problem, your solution, and why now"
+    },
+    {
+      "time": "11:00 - 11:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "11:15 - 12:30",
+      "title": "Market & Business Model",
+      "details": "TAM/SAM/SOM and revenue model"
+    },
+    {
+      "time": "12:30 - 13:30",
+      "title": "Lunch Break",
+      "details": ""
+    },
+    {
+      "time": "13:30 - 15:00",
+      "title": "Traction & Team",
+      "details": "Show your progress and why your team can execute"
+    },
+    {
+      "time": "15:00 - 15:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "15:15 - 16:00",
+      "title": "Financials & Ask",
+      "details": "Funding ask, use of funds, and financial projections"
+    },
+    {
+      "time": "16:00 - 16:30",
+      "title": "Pitch Practice & Feedback",
+      "details": "Present to your curated group and receive actionable feedback"
+    }
+  ],
+  "whoItsFor": [
+    "Founders preparing to raise seed or Series A",
+    "Startups with a validated product and initial traction",
+    "Entrepreneurs who need to articulate their vision clearly"
+  ],
+  "whoItsNotFor": [
+    "Pre-revenue startups without any validation",
+    "Teams without a clear business model"
+  ],
+  "facilitator": {
+    "name": "Marcus Thompson",
+    "title": "Angel Investor, 200+ pitch decks reviewed"
+  },
+  "registerUrl": "https://eventbrite.com/vibellion-pitch-deck-sprint",
+  "tags": ["pitch", "funding", "investors", "presentation"]
+}
+

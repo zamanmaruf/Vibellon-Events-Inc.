@@ -1,0 +1,88 @@
+{
+  "slug": "gtm-sprint",
+  "title": "GTM Sprint",
+  "subtitle": "Build your go-to-market strategy from first customer to scale",
+  "type": "sprint",
+  "format": "online",
+  "startDateISO": "2024-04-29T09:00:00-03:00",
+  "endDateISO": "2024-04-29T17:00:00-03:00",
+  "timezone": "America/Halifax",
+  "price": {
+    "currency": "CAD",
+    "standard": 299,
+    "pro": 499,
+    "vip": 799
+  },
+  "outcome": "A complete go-to-market plan with channels, messaging, pricing, and 90-day execution roadmap",
+  "deliverables": [
+    "GTM strategy document",
+    "Customer acquisition plan",
+    "Pricing strategy framework",
+    "Messaging and positioning guide",
+    "Channel strategy with prioritization",
+    "90-day execution roadmap"
+  ],
+  "agenda": [
+    {
+      "time": "09:00 - 09:30",
+      "title": "Welcome & GTM Framework",
+      "details": "The Vibellion GTM execution model"
+    },
+    {
+      "time": "09:30 - 11:00",
+      "title": "Customer Segmentation & ICP",
+      "details": "Define your ideal customer profile and segments"
+    },
+    {
+      "time": "11:00 - 11:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "11:15 - 12:30",
+      "title": "Positioning & Messaging",
+      "details": "Craft your value proposition and messaging framework"
+    },
+    {
+      "time": "12:30 - 13:30",
+      "title": "Lunch Break",
+      "details": ""
+    },
+    {
+      "time": "13:30 - 15:00",
+      "title": "Channel Strategy",
+      "details": "Identify and prioritize acquisition channels"
+    },
+    {
+      "time": "15:00 - 15:15",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "15:15 - 16:30",
+      "title": "Pricing & Revenue Model",
+      "details": "Develop pricing strategy and revenue model"
+    },
+    {
+      "time": "16:30 - 17:00",
+      "title": "90-Day Roadmap",
+      "details": "Build your execution plan with milestones and metrics"
+    }
+  ],
+  "whoItsFor": [
+    "Startups ready to acquire customers systematically",
+    "Founders with a product but unclear on how to reach customers",
+    "Teams scaling beyond early adopters"
+  ],
+  "whoItsNotFor": [
+    "Pre-product startups",
+    "Established businesses with mature GTM processes"
+  ],
+  "facilitator": {
+    "name": "Alex Rivera",
+    "title": "Former Head of Growth, scaled 3 startups to $10M+ ARR"
+  },
+  "registerUrl": "https://eventbrite.com/vibellion-gtm-sprint",
+  "tags": ["gtm", "marketing", "sales", "strategy"]
+}
+

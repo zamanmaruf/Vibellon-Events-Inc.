@@ -1,0 +1,67 @@
+{
+  "slug": "curated-founder-networking-night",
+  "title": "Curated Founder Networking Night",
+  "subtitle": "Connect with fellow founders in an intentionally curated environment",
+  "type": "networking",
+  "format": "in-person",
+  "city": "Halifax",
+  "startDateISO": "2024-05-20T18:00:00-03:00",
+  "endDateISO": "2024-05-20T21:00:00-03:00",
+  "timezone": "America/Halifax",
+  "price": {
+    "currency": "CAD",
+    "standard": 49,
+    "pro": null,
+    "vip": null
+  },
+  "outcome": "Meaningful connections with 5-10 founders, investors, and operators who can help you move forward",
+  "deliverables": [
+    "Curated attendee list with introductions",
+    "Structured networking format",
+    "Follow-up connection templates",
+    "Access to private founder community"
+  ],
+  "agenda": [
+    {
+      "time": "18:00 - 18:30",
+      "title": "Welcome & Introductions",
+      "details": "Light refreshments and opening remarks"
+    },
+    {
+      "time": "18:30 - 19:30",
+      "title": "Structured Networking",
+      "details": "Curated introductions and focused conversations"
+    },
+    {
+      "time": "19:30 - 20:00",
+      "title": "Break & Refreshments",
+      "details": ""
+    },
+    {
+      "time": "20:00 - 20:45",
+      "title": "Open Networking",
+      "details": "Continue conversations and make new connections"
+    },
+    {
+      "time": "20:45 - 21:00",
+      "title": "Wrap-up & Next Steps",
+      "details": "Share contact information and follow-up resources"
+    }
+  ],
+  "whoItsFor": [
+    "Founders actively building startups",
+    "Early-stage entrepreneurs seeking peer connections",
+    "Operators looking to expand their network"
+  ],
+  "whoItsNotFor": [
+    "Service providers primarily seeking clients",
+    "Non-founders without startup involvement"
+  ],
+  "facilitator": {
+    "name": "Vibellion Team",
+    "title": "Event Coordination"
+  },
+  "registerUrl": "https://eventbrite.com/vibellion-networking-night",
+  "tags": ["networking", "community", "founders"]
+}
+
