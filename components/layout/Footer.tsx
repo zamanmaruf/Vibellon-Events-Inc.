@@ -112,7 +112,7 @@ export function Footer() {
               Twitter
             </a>
             <a
-              href="https://linkedin.com/company/vibellion"
+              href="https://www.linkedin.com/company/vibellion-events-inc/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
