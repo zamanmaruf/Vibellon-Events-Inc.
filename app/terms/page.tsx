@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const metadata = {
   title: "Terms of Service",
   description: "Vibellion Events Inc. Terms of Service - Comprehensive terms governing the use of our website and services.",
@@ -375,9 +377,12 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mt-8 mb-4">17. Dispute Resolution</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Before initiating any formal legal proceedings, you agree to first contact us at 
-              vibellioneventsinc@gmail.com to attempt to resolve any dispute informally. We will make 
-              good faith efforts to resolve disputes within 30 days of notification.
+              Before initiating any formal legal proceedings, you agree to first{" "}
+              <Link href="/contact" className="text-primary hover:underline">
+                contact us
+              </Link>
+              {" "}to attempt to resolve any dispute informally. We will make good faith efforts to 
+              resolve disputes within 30 days of notification.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               If informal resolution is not possible, disputes shall be resolved through binding arbitration 
@@ -431,14 +436,12 @@ export default function TermsPage() {
               <p className="text-muted-foreground mb-2">
                 <strong>Vibellion Events Inc.</strong>
               </p>
-              <p className="text-muted-foreground mb-2">
-                <strong>Email:</strong>{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
-              </p>
               <p className="text-muted-foreground">
-                <strong>Subject Line:</strong> Terms of Service Inquiry
+                Please{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact us
+                </Link>
+                {" "}with any questions about these Terms of Service.
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed mt-4">

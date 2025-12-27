@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const metadata = {
   title: "Code of Conduct",
   description: "Vibellion Events Inc. Code of Conduct - Comprehensive guidelines for professional behavior at all our events and interactions.",
@@ -224,11 +226,11 @@ export default function CodeOfConductPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
               <li><strong>In-Person:</strong> Speak directly to event staff, facilitators, or security personnel</li>
-              <li><strong>Email:</strong> Send a detailed report to{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
-                {" "}with the subject line "Code of Conduct Report"</li>
+              <li><strong>Email:</strong>{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  Contact us through our contact page
+                </Link>
+                {" "}with your Code of Conduct report</li>
               <li><strong>Anonymous Reporting:</strong> If you prefer to report anonymously, you may do so via email without identifying yourself</li>
               <li><strong>Emergency Situations:</strong> For immediate threats or emergencies, contact local emergency services (911) first, then notify event staff</li>
             </ul>
@@ -310,10 +312,10 @@ export default function CodeOfConductPage() {
               request a review by:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-              <li>Submitting a written appeal to{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
+              <li>Submitting a written appeal through our{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact page
+                </Link>
                 {" "}within 30 days of the decision</li>
               <li>Including relevant information, evidence, or context not previously considered</li>
               <li>Requests will be reviewed by a different decision-maker when possible</li>
@@ -348,10 +350,10 @@ export default function CodeOfConductPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
               <li><strong>Event Staff:</strong> Available at all events to provide assistance and support</li>
-              <li><strong>Email Support:</strong> Contact{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
+              <li><strong>Email Support:</strong>{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  Contact us through our contact page
+                </Link>
                 {" "}for non-urgent concerns</li>
               <li><strong>Mental Health Resources:</strong> If you need mental health support, consider contacting local crisis helplines or mental health services</li>
               <li><strong>Legal Resources:</strong> For serious violations, consider consulting with legal professionals or law enforcement</li>
@@ -382,14 +384,12 @@ export default function CodeOfConductPage() {
               <p className="text-muted-foreground mb-2">
                 <strong>Vibellion Events Inc.</strong>
               </p>
-              <p className="text-muted-foreground mb-2">
-                <strong>Email:</strong>{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
-              </p>
               <p className="text-muted-foreground">
-                <strong>Subject Line:</strong> Code of Conduct Inquiry / Report
+                Please{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact us
+                </Link>
+                {" "}with any questions about this Code of Conduct, to report violations, or to provide feedback.
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed mt-4">

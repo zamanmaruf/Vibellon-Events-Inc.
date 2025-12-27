@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const metadata = {
   title: "Privacy Policy",
   description: "Vibellion Events Inc. Privacy Policy - Comprehensive information about how we collect, use, and protect your personal information in compliance with PIPEDA.",
@@ -247,10 +249,10 @@ export default function PrivacyPage() {
             </p>
 
             <p className="text-muted-foreground leading-relaxed mt-6">
-              To exercise any of these rights, please contact us at{" "}
-              <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                vibellioneventsinc@gmail.com
-              </a>
+              To exercise any of these rights, please{" "}
+              <Link href="/contact" className="text-primary hover:underline">
+                contact us
+              </Link>
               . We will respond to your request within 30 days.
             </p>
           </section>
@@ -348,14 +350,12 @@ export default function PrivacyPage() {
               <p className="text-muted-foreground mb-2">
                 <strong>Vibellion Events Inc.</strong>
               </p>
-              <p className="text-muted-foreground mb-2">
-                <strong>Email:</strong>{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
-              </p>
               <p className="text-muted-foreground">
-                <strong>Subject Line:</strong> Privacy Policy Inquiry
+                Please{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact us
+                </Link>
+                {" "}with any questions about this Privacy Policy or our privacy practices.
               </p>
             </div>
             <p className="text-muted-foreground leading-relaxed mt-4">

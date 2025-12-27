@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const metadata = {
   title: "Refund Policy",
   description: "Vibellion Events Inc. Refund Policy - Comprehensive refund and cancellation policies for event registrations.",
@@ -127,10 +129,10 @@ export default function RefundPolicyPage() {
               If you cannot attend the new date, you may request a full refund by:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-              <li>Emailing{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
+              <li>{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  Contacting us
+                </Link>
                 {" "}within 7 business days of the postponement announcement</li>
               <li>Including your registration confirmation number and the event name</li>
               <li>Clearly stating that you cannot attend the new date</li>
@@ -177,10 +179,10 @@ export default function RefundPolicyPage() {
 
             <h3 className="text-xl font-semibold mt-6 mb-3">6.1 Refund Request Requirements</h3>
             <p className="text-muted-foreground leading-relaxed mb-2">
-              All refund requests must be submitted in writing via email to{" "}
-              <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                vibellioneventsinc@gmail.com
-              </a>
+              All refund requests must be submitted in writing through our{" "}
+              <Link href="/contact" className="text-primary hover:underline">
+                contact page
+              </Link>
               {" "}and must include:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
@@ -315,10 +317,10 @@ export default function RefundPolicyPage() {
             <h3 className="text-xl font-semibold mt-6 mb-3">10.1 Transfer Requirements</h3>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
               <li><strong>Deadline:</strong> Transfer requests must be received at least 24 hours before the event start time</li>
-              <li><strong>Written Request:</strong> Transfer requests must be submitted in writing via email to{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
+              <li><strong>Written Request:</strong> Transfer requests must be submitted in writing through our{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact page
+                </Link>
               </li>
               <li><strong>New Participant Information:</strong> Full name, email address, and contact information of the replacement participant</li>
               <li><strong>Confirmation:</strong> Both parties (original and new participant) must acknowledge the transfer</li>
@@ -419,10 +421,10 @@ export default function RefundPolicyPage() {
               If you have concerns about a refund decision:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-              <li>Contact us at{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
+              <li>{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  Contact us
+                </Link>
                 {" "}to discuss the decision</li>
               <li>Provide additional context or documentation that may not have been considered</li>
               <li>Requests will be reviewed by a different decision-maker when possible</li>
@@ -442,14 +444,13 @@ export default function RefundPolicyPage() {
               <p className="text-muted-foreground mb-2">
                 <strong>Vibellion Events Inc.</strong>
               </p>
-              <p className="text-muted-foreground mb-2">
-                <strong>Email:</strong>{" "}
-                <a href="mailto:vibellioneventsinc@gmail.com" className="text-primary hover:underline">
-                  vibellioneventsinc@gmail.com
-                </a>
-              </p>
               <p className="text-muted-foreground">
-                <strong>Subject Line:</strong> Refund Request - [Event Name]
+                Please{" "}
+                <Link href="/contact" className="text-primary hover:underline">
+                  contact us
+                </Link>
+                {" "}for refund requests, questions, or concerns about this policy. When submitting a refund request, 
+                please include "Refund Request - [Event Name]" in your message.
               </p>
             </div>
 
