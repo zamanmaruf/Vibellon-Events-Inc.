@@ -15,7 +15,7 @@ export function Hero() {
           Outcome-Driven Business Events for Serious Operators
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground">
-          Outcome-driven business sprints and curated rooms. Operator-led. Leave with it done.
+          Business sprints and curated rooms. Operator-led. Leave with it done.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <Button asChild size="lg">
