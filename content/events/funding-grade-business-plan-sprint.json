@@ -1,0 +1,111 @@
+{
+  "slug": "funding-grade-business-plan-sprint",
+  "title": "Build a Funding-Grade Business Plan in 3 Hours",
+  "subtitle": "Transform your idea into a structured, investor-ready business plan in a single focused session",
+  "type": "sprint",
+  "format": "online",
+  "city": "Canada-wide",
+  "startDateISO": "2025-01-13T10:00:00-08:00",
+  "endDateISO": "2025-01-13T13:00:00-08:00",
+  "timezone": "America/Los_Angeles",
+  "price": {
+    "currency": "CAD",
+    "standard": 59.99,
+    "pro": null,
+    "vip": 399
+  },
+  "outcome": "Transform your idea into a structured, investor-ready business plan in a single focused session. This Canada-wide online sprint is designed to help you build a plan that investors, banks, accelerators, and serious partners can actually evaluate—because it's clear, logical, and backed by credible assumptions.",
+  "deliverables": [
+    "Funding-grade business plan structure (complete outline filled)",
+    "Clear problem → solution → market → model → go-to-market flow",
+    "Simple, credible 12-month execution plan",
+    "Basic financial model skeleton (revenue drivers + cost assumptions)",
+    "Investor-readiness checklist (gaps + next steps to strengthen your plan)",
+    "Clean 1-page executive summary framework you can reuse"
+  ],
+  "agenda": [
+    {
+      "time": "0:00-0:10",
+      "title": "Kickoff + Outcomes",
+      "details": "What \"funding-grade\" means, sprint rules, and what you'll finish today"
+    },
+    {
+      "time": "0:10-0:30",
+      "title": "The 1-Page Foundation",
+      "details": "Customer, problem, wedge, and why now"
+    },
+    {
+      "time": "0:30-1:00",
+      "title": "Market + Competition",
+      "details": "ICP, segments, competitors/substitutes, differentiation"
+    },
+    {
+      "time": "1:00-1:30",
+      "title": "Business Model + Assumptions",
+      "details": "Pricing, revenue drivers, costs, unit economics logic"
+    },
+    {
+      "time": "1:30-1:40",
+      "title": "Break",
+      "details": ""
+    },
+    {
+      "time": "1:40-2:20",
+      "title": "Go-to-Market Plan",
+      "details": "Channels, first 30/90-day plan, KPIs"
+    },
+    {
+      "time": "2:20-2:45",
+      "title": "12-Month Financial Skeleton",
+      "details": "Forecast structure, break-even thinking, runway basics"
+    },
+    {
+      "time": "2:45-3:00",
+      "title": "Investor-Ready Checklist + Next Steps",
+      "details": "What's missing, how to polish, and recommended next steps"
+    }
+  ],
+  "whoItsFor": [
+    "First-time founders who need a professional structure fast",
+    "Early-stage startups preparing for pre-seed/seed conversations",
+    "Professionals building a serious side business",
+    "Anyone applying to grants, accelerators, bank lending, or partnerships"
+  ],
+  "whoItsNotFor": [
+    "Anyone looking for a passive lecture with no hands-on work",
+    "Anyone not ready to make real decisions and document them in real time"
+  ],
+  "facilitator": {
+    "name": "Vibellion Events Team",
+    "title": "Operator-led facilitation"
+  },
+  "registerUrl": "https://www.eventbrite.ca/e/build-a-funding-grade-business-plan-in-3-hours-canada-wide-online-sprint-tickets-1979122131572?aff=oddtdtcreator",
+  "faq": [
+    {
+      "question": "What will I walk away with?",
+      "answer": "You'll leave with a funding-grade business plan structure, clear problem-to-solution flow, 12-month execution plan, financial model skeleton, investor-readiness checklist, and a reusable 1-page executive summary framework."
+    },
+    {
+      "question": "What should I prepare before the sprint?",
+      "answer": "Bring your idea in 1-2 sentences, any notes on your target customer, a rough price point (even a guess is fine), and have a Google Doc or Notion doc open so you can write live."
+    },
+    {
+      "question": "Is this beginner-friendly?",
+      "answer": "Yes! This sprint is designed for first-time founders and early-stage startups. You don't need an existing business to attend—just an idea you want to develop into a structured plan."
+    },
+    {
+      "question": "What's the difference between General Admission and VVVIP?",
+      "answer": "General Admission ($59.99) includes full access to the 3-hour live sprint, guided work blocks, Q&A, templates, and post-event resource pack. VVVIP ($399) includes everything in General Admission plus priority Q&A during the sprint and a private 1:1 plan review session after the event for focused feedback."
+    },
+    {
+      "question": "What is your refund policy?",
+      "answer": "Full refunds available up to 7 days before the event. 50% refund for cancellations 3-7 days before. No refunds within 3 days of the event. See our full refund policy for details."
+    },
+    {
+      "question": "Can I transfer my ticket to someone else?",
+      "answer": "Yes, you may transfer your registration to another person up to 24 hours before the event. Please contact us through our contact page to request a transfer."
+    }
+  ],
+  "tags": ["funding", "business-plan", "investors", "finance", "sprint", "online"]
+}
+
