@@ -32,6 +32,8 @@ export const eventSchema = z.object({
   facilitator: z.object({
     name: z.string(),
     title: z.string().optional(),
+    bio: z.string().optional(),
+    image: z.string().optional(),
   }),
   registerUrl: z.string(),
   faq: z.array(z.object({

@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { format } from "date-fns"
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
+import Image from "next/image"
 
 interface EventPageProps {
   params: Promise<{ slug: string }>
@@ -149,10 +150,24 @@ export default async function EventPage({ params }: EventPageProps) {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-muted-foreground">Facilitator</p>
-                  <p>{event.facilitator.name}</p>
-                  {event.facilitator.title && (
-                    <p className="text-sm text-muted-foreground">{event.facilitator.title}</p>
-                  )}
+                  <div className="mt-2 space-y-3">
+                    {event.facilitator.image && (
+                      <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-border">
+                        <Image
+                          src={event.facilitator.image}
+                          alt={event.facilitator.name}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    )}
+                    <div>
+                      <p className="font-medium">{event.facilitator.name}</p>
+                      {event.facilitator.title && (
+                        <p className="text-sm text-muted-foreground">{event.facilitator.title}</p>
+                      )}
+                    </div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -258,6 +273,39 @@ export default async function EventPage({ params }: EventPageProps) {
               </Card>
             )}
           </div>
+
+          {event.facilitator.bio && (
+            <Card>
+              <CardHeader>
+                <CardTitle>About the Facilitator</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  {event.facilitator.image && (
+                    <div className="relative w-32 h-32 rounded-lg overflow-hidden border border-border">
+                      <Image
+                        src={event.facilitator.image}
+                        alt={event.facilitator.name}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  )}
+                  <div className="space-y-2">
+                    <div>
+                      <p className="font-semibold text-lg">{event.facilitator.name}</p>
+                      {event.facilitator.title && (
+                        <p className="text-sm text-muted-foreground">{event.facilitator.title}</p>
+                      )}
+                    </div>
+                    <div className="text-muted-foreground whitespace-pre-line leading-relaxed">
+                      {event.facilitator.bio}
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
           {event.faq && event.faq.length > 0 && (
             <Card>
