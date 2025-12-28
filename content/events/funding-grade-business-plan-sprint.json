@@ -5,9 +5,9 @@
   "type": "sprint",
   "format": "online",
   "city": "Canada-wide",
-  "startDateISO": "2026-01-13T10:00:00-08:00",
-  "endDateISO": "2026-01-13T13:00:00-08:00",
-  "timezone": "America/Los_Angeles",
+  "startDateISO": "2026-01-13T14:00:00-04:00",
+  "endDateISO": "2026-01-13T17:00:00-04:00",
+  "timezone": "America/Halifax",
   "price": {
     "currency": "CAD",
     "standard": 59.99,
