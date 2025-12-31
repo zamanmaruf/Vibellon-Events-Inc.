@@ -47,24 +47,34 @@ export type Event = z.infer<typeof eventSchema>
 export type EventAgendaItem = z.infer<typeof eventAgendaItemSchema>
 export type EventPrice = z.infer<typeof eventPriceSchema>
 
+// Import all event JSON files statically to ensure they're bundled
+import bankInvestorReadySprint from "@/content/events/bank-investor-ready-sprint.json"
+import curatedFounderNetworkingNight from "@/content/events/curated-founder-networking-night.json"
+import financialModelBasicsSprint from "@/content/events/financial-model-basics-sprint.json"
+import fundingGradeBusinessPlanSprint from "@/content/events/funding-grade-business-plan-sprint.json"
+import gtmSprint from "@/content/events/gtm-sprint.json"
+import pitchDeckSprint from "@/content/events/pitch-deck-sprint.json"
+import zeroToFirst10CustomersSprint from "@/content/events/zero-to-first-10-customers-sprint.json"
+
+const eventFiles = [
+  bankInvestorReadySprint,
+  curatedFounderNetworkingNight,
+  financialModelBasicsSprint,
+  fundingGradeBusinessPlanSprint,
+  gtmSprint,
+  pitchDeckSprint,
+  zeroToFirst10CustomersSprint,
+]
+
 export async function getEvents(): Promise<Event[]> {
-  // In a real app, this could read from a CMS or database
-  // For now, we'll load from JSON files using Node.js fs
   const events: Event[] = []
   
   try {
-    const fs = await import("fs/promises")
-    const path = await import("path")
-    
-    const contentDir = path.join(process.cwd(), "content", "events")
-    const files = await fs.readdir(contentDir)
-    
-    for (const file of files) {
-      if (file.endsWith(".json")) {
-        const filePath = path.join(contentDir, file)
-        const fileContent = await fs.readFile(filePath, "utf-8")
-        const eventData = JSON.parse(fileContent)
+    for (const eventData of eventFiles) {
+      try {
         events.push(eventSchema.parse(eventData))
+      } catch (parseError) {
+        console.error(`Error parsing event:`, eventData.slug || "unknown", parseError)
       }
     }
   } catch (error) {
